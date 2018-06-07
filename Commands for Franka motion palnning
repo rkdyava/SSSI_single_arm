@@ -1,0 +1,6 @@
+cd ~/desired_path/
+source /opt/ros/kinetic/setup.bash
+source ~/desired_path/devel/setup.bash
+roslaunch package_name file.launch robot_ip:=172.16.0.2
+
+%%%%%%%%%%
